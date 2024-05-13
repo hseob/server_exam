@@ -36,7 +36,7 @@ export async function getWordCountFromDB(userId: number) {
 
 export async function insertWordFromDB(userId: number, word: string) {
   const query = `
-    INSERT INTO user_words (created_at, user_id, word) VALUES (NOW(), ${userId}, ${word})
+    INSERT INTO user_words (created_at, user_id, word) VALUES (NOW(), ${userId}, "${word}")
   `;
 
   await dbQuery(query);

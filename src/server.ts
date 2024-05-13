@@ -1,8 +1,11 @@
 import express from "express";
+import bodyParser from "body-parser";
 import * as business from "./business";
 
 const app = express();
 const port = 3000;
+
+app.use(bodyParser.json());
 
 app.get("/users/:id/vocabulary/level", async (req, res) => {
   const userId = business.getNumber(req.params.id);
