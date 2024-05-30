@@ -24,7 +24,7 @@
 
 Please install all packages and run migration.js.
 
-## situation
+## Situation
 
 The name of the application we will create is “Vocabulary Meter”.  
 "Vocabulary Meter" shows the user's vocabulary by analyzing call records, text records, etc. on the user's cell phone.  
@@ -35,7 +35,7 @@ However, he said that optimization failed.
 As a backend developer, your job is 'optimization'.  
 (Reduce server response time)  
 
-## condition
+## Condition
 
 1. Use of the library is prohibited.
 2. Do not modify the user_word table. If there are changes to the database, be sure to add content to migration.js so that it can be executed in a different environment.
