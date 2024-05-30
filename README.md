@@ -26,14 +26,14 @@ Please install all packages and run migration.js.
 
 ## situation
 
-The name of the application we will create is “Vocabulary Meter”.
-"Vocabulary Meter" shows the user's vocabulary by analyzing call records, text records, etc. on the user's cell phone.
-A fellow developer said he succeeded in parsing a cell phone's call and text records word by word on the client side.
-And it is said that all parsing results are delivered as `POST /users/word`.
-he said that while doing so, he also created a frame for the server.
-However, he said that optimization failed.
-As a backend developer, your job is 'optimization'.
-(Reduce server response time)
+The name of the application we will create is “Vocabulary Meter”.  
+"Vocabulary Meter" shows the user's vocabulary by analyzing call records, text records, etc. on the user's cell phone.  
+A fellow developer said he succeeded in parsing a cell phone's call and text records word by word on the client side.  
+And it is said that all parsing results are delivered as `POST /users/word`.  
+he said that while doing so, he also created a frame for the server.  
+However, he said that optimization failed.  
+As a backend developer, your job is 'optimization'.  
+(Reduce server response time)  
 
 ## condition
 
